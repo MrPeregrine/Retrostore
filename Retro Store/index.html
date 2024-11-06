@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Retro Store</h1>
+            </header>
+        
+       <nav>
+        <ul class="menu">
+            <li>
+                <button class="boton-Menu boton-categoria active"><i class="bi bi-hand-index-fill"></i> Promociones actuales</button>
+            </li>
+            <li>
+                <button class="boton-Menu boton-categoria"><i class="bi bi-joystick"></i> Videojuegos</button>
+            </li>
+            <li>
+                <button class="boton-Menu boton-categoria"><i class="bi bi-dice-6-fill"></i> Juegos de Mesa</button>
+            </li>
+            <li>
+                <button class="boton-Menu boton-categoria"><i class="bi bi-robot"></i> Juguetes</button>
+            </li>
+            <li>
+                <a class="boton-Menu boton-carrito" href="./carrito.html">
+                    <i class="bi bi-bag"></i> Carrito<span class="numerito"> 0</span>
+                </a>
+            </li>
+        </ul>
+       </nav>
+        <footer>
+            <p class="texto-footer">© 2024 Tinkerworks</p>
+        </footer> 
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Promociones actuales</h2>
+            <div class="contenedor-productos">
+                <div class="producto">
+                    <img class="producto-imagen" src="./Imagenes/Megatron.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Megatron 1980's</h3>
+                        <p class="producto-precio">$̶̶3̶̶6̶̶,̶4̶̶7̶̶6̶̶.̶6̶̶0̶̶ =$1,379.064<p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="./Imagenes/Monopoly Classic.png" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monopoly version de los 80's</h3>
+                        <p class="producto-precio">$̶3̶6̶2̶.9̶3̶ =181.465<p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="./Imagenes/Pokemon Yellow.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Pokemon Amarillo</h3>
+                        <p class="producto-precio">$̶9̶0̶2̶.6̶3̶=$451.315<p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="./Imagenes/Barbie Invernal.png" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Barbie Diversion Invernal</h3>
+                        <p class="producto-precio">$̶1̶,6̶9̶9̶=$849.5<p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
