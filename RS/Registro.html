@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="auth.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro</h1>
+        <form onsubmit="registrarUsuario(event)">
+            <label for="register-username">Usuario:</label>
+            <input type="text" id="register-username" required>
+            <label for="register-password">Contraseña:</label>
+            <input type="password" id="register-password" required>
+            <button type="submit">Registrar</button>
+        </form>
+        <p id="registro-mensaje"></p>
+        <a href="login.html">Ya tienes cuenta? Inicia Sesión</a>
+        <a href="index.html">Volver a Inicio</a>
+    </div>
+</body>
+</html>

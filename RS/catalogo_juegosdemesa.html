@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Juegos de Mesa</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Catálogo de Juegos de Mesa</h1>
+        <!-- Filtro por década -->
+        <div id="filtros">
+            <label for="decada">Filtrar por Década:</label>
+            <select id="decada" onchange="filtrarProductosPorDecada('juegos_de_mesa')">
+                <option value="todas">Todas</option>
+                <option value="80's">80's</option>
+                <option value="90's">90's</option>
+                <option value="2000's">2000's</option>
+            </select>
+        </div>
+        <!-- Lista de productos -->
+        <div id="productos-lista"></div>
+        <a href="index.html">Volver a Inicio</a>
+    </div>
+</body>
+</html>

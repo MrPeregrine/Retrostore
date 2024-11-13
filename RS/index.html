@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la Retro Store</h1>
+        <nav>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="catalogo_juguetes.html">Juguetes</a>
+            <a href="catalogo_videojuegos.html">Videojuegos</a>
+            <a href="catalogo_juegosdemesa.html">Juegos de Mesa</a>
+            <a href="carrito.html">Carrito</a>
+        </nav>
+        <section class="discount-catalog">
+            <h2>Ahora en Descuento!!!</h2>
+            <div class="discount-grid">
+                <article class="product-card">
+                    <img src="imagenes/nes.jpg" alt="Consola NES">
+                    <h3>Consola NES</h3>
+                    <p>Antes: <span class="old-price">$100.00</span> Ahora: <span class="new-price">$80.00</span></p>
+                    <button onclick="confirmarCompra()" class="buy-button">Comprar</button>
+                </article>
+                
+                <article class="product-card">
+                    <img src="imagenes/barbie_80s.jpg" alt="Muñeca Barbie 1985">
+                    <h3>Muñeca Barbie 1985</h3>
+                    <p>Antes: <span class="old-price">$50.00</span> Ahora: <span class="new-price">$35.00</span></p>
+                    <button onclick="confirmarCompra()" class="buy-button">Comprar</button>
+                </article>
+                
+                <article class="product-card">
+                    <img src="imagenes/rubiks_cube.jpg" alt="Cubo de Rubik Clásico">
+                    <h3>Cubo de Rubik Clásico</h3>
+                    <p>Antes: <span class="old-price">$15.00</span> Ahora: <span class="new-price">$10.00</span></p>
+                    <button onclick="confirmarCompra()" class="buy-button">Comprar</button>
+                </article>
+                
+                <article class="product-card">
+                    <img src="imagenes/pokemon_red.jpg" alt="Pokémon Edición Roja">
+                    <h3>Pokémon Edición Roja</h3>
+                    <p>Antes: <span class="old-price">$40.00</span> Ahora: <span class="new-price">$30.00</span></p>
+                    <button onclick="confirmarCompra()" class="buy-button">Comprar</button>
+                </article>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
